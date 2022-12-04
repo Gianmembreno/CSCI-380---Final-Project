@@ -1,0 +1,228 @@
+
+* {
+    box-sizing: border-box;
+  }
+/* 
+  .navbar {
+    padding: 0px;
+    margin-bottom: 50px;
+    margin-left: -45px;
+    background-color: #393e46;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #f2e7d5 !important;
+  }
+
+   .nav-item {
+    padding: 0 50px; 
+  } 
+  
+  .nav-link {
+
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #f2e7d5 !important;
+  }
+  */
+
+.navbar {
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  background-color: #393e46;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f2e7d5 !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.resources {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2200%;
+  color: #f2e7d5 !important;
+}
+
+
+h2{
+    border-radius: 30px;
+    text-align: center;
+    border: 5px solid #f2e7d5;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    padding: 20px;
+    padding-top: 25px;
+    height: 100px;
+
+}
+
+.full-height {
+  min-height:100vh; /* vh = viewport height */
+}
+
+.col1{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin: 20px; /* entire body margin */ 
+    /* border: 50px; */ 
+    margin-left: 50px;
+    width: 900px;
+    
+}
+
+.col2{
+
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+ /* display: inline-block; */
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;;
+  margin: 20px; /* entire body margin */ 
+  /* border: 50px; */ 
+  margin-left: 50px;
+  width: 900px;
+  
+}
+
+body{
+  background-color: #6d9886;
+}
+
+.container-fluid {
+    border: 2px solid black;
+}
+
+.current_balance{
+    border-radius: 30px;
+    text-align: center; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #393e4663;
+    border: 2px solid black; 
+
+}
+
+.earn_exp_container{
+    border-radius: 30px;
+    background: #f2e7d5;
+    text-align: center;
+    margin-left: 230px;
+    padding: 20px;
+    width: 400px;
+    height: 180px;
+    margin-bottom: 10px;
+
+}
+
+.earnings{
+
+}
+
+.money_up{
+
+}
+
+.expenses{
+
+}
+
+.money_down{
+
+}
+
+h3{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.tx_history{
+    margin-top:40px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+}
+
+.list {
+    padding: 20px;
+  }
+  
+  .list li {
+    background-color: #393e46d2;
+    color: #f2e7d5;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    
+  }
+
+  .list li.plus {
+    color: green;
+    border: 3px solid #000000;
+  }
+
+  
+  .list li.minus {
+    color: red;
+    border: 3px solid #000000;
+  }
+
+input[type="text"],
+input[type="number"] {
+    background-color: #f2e7d5;
+    border: 1px solid #393E46;
+    border-radius: 15px;
+    padding: 10px;
+    width: 85%;
+}
+
+.entries{
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px dashed #f2e7d5;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
+.tx_type{
+    margin-top: 20px; 
+}
+
+.text{
+    margin-top: 100px; 
+}
+
+.tx_amount{
+    margin-top: 20px; 
+
+}
+.amount{
+    margin-top: 100px; 
+}
+
+.btn{
+    color:#f2e7d5 ;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    background-color: rgb(39, 105, 202);
+
+
+}
+

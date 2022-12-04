@@ -1,0 +1,54 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #393e46;
+  }
+  
+  .wrapper {
+    border-top: 3px solid #6d9886;
+  }
+  
+  .wrapper a {
+    text-decoration: none;
+    color: #6d9886;
+  }
+  
+  .btn {
+    background-color: #6d9886;
+  }
+  
+  .sign-up-box,
+  .log-in-box {
+    background-color: #f2e7d5;
+  }
+  
+  /* Navbar  */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f2e7d5 !important;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #f2e7d5 !important;
+  }
+  
+  a {
+    color: #f2e7d5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #6d9886;
+  }
+  
